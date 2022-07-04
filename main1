@@ -1,0 +1,26 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("passion hub", "Synapse")
+
+local Credits = Window:NewTab("credits")
+
+local Credits = Credits:NewSection("credits")
+Credits:NewLabel("made and scripted by deltaa#0001")
+
+
+
+local Main = Window:NewTab("main")
+local MainButtons = Main:NewSection("games")
+
+
+MainButtons:NewButton("grand piece online", "good script", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/Jakekill871/public-scripts/master/GrandPieceOnlineGUI'),true))()
+    end)
+
+
+MainButtons:NewButton("your bizarre adventure", "worst game ever", function()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/DookDekDEE/Hyper/main/script.lua'),true))()
+    end)
+
+MainButtons:NewButton("blox fruits", "why do people even play this?", function()
+    loadstring(game:HttpGet(('https://pastebin.com/fqdAV277'),true))()
+    end)
